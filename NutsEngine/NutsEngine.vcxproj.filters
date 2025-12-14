@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NutsEngine">
+      <UniqueIdentifier>{8540F8F8-71F8-3946-DAFF-12A2C6D6D436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NutsEngine\Events">
+      <UniqueIdentifier>{C984D930-359B-D7C6-7E12-63E8EA67A84E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\NutsEngine.h" />
+    <ClInclude Include="src\NutsEngine\App.h">
+      <Filter>NutsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NutsEngine\Core.h">
+      <Filter>NutsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NutsEngine\EntryPoint.h">
+      <Filter>NutsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NutsEngine\Events\AppEvent.h">
+      <Filter>NutsEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NutsEngine\Events\Event.h">
+      <Filter>NutsEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NutsEngine\Events\KeyEvent.h">
+      <Filter>NutsEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NutsEngine\Events\MouseEvent.h">
+      <Filter>NutsEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NutsEngine\Layer.h">
+      <Filter>NutsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NutsEngine\LayerStack.h">
+      <Filter>NutsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NutsEngine\Log.h">
+      <Filter>NutsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NutsEngine\Window.h">
+      <Filter>NutsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nepch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\NutsEngine\App.cpp">
+      <Filter>NutsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NutsEngine\Layer.cpp">
+      <Filter>NutsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NutsEngine\LayerStack.cpp">
+      <Filter>NutsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NutsEngine\Log.cpp">
+      <Filter>NutsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nepch.cpp" />
+  </ItemGroup>
+</Project>

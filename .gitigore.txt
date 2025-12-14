@@ -1,0 +1,16 @@
+# Ignore Visual Studio build folders
+bin/
+bin-int/
+x64/
+Debug/
+Release/
+.vs/
+
+# Ignore Visual Studio generated files
+*.pch
+*.pdb
+*.iobj
+*.ipdb
+*.sln
+*.vcxproj
+*.vcxproj.user
